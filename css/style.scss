@@ -1,0 +1,32 @@
+$font-stack: 'Raleway', sans-serif;
+$first-color: #333;
+$second-color: #333;
+$third-color: #333;
+$fourth-color: #333;
+
+body{
+  font-family: 100% $font-stack;
+}
+
+.side-navbar{
+  ul {
+
+  }
+
+  li {
+    display: inline-block;
+    // we go diagonal here
+  }
+
+  a {
+  
+  }
+}
+
+.head{
+
+}
+
+.angles{
+  @include angled-edge('outside bottom','lower right', #EE3924);
+}

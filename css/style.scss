@@ -9,12 +9,15 @@ body{
 }
 
 .side-navbar{
-  ul {
+    
 
+  ul {
+    list-style: none;
   }
 
   li {
     display: inline-block;
+    list-style: none;
     // we go diagonal here
   }
 

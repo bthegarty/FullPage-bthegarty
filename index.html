@@ -1,21 +1,17 @@
-<!-- doctype HTML -->
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>bthegarty-fullPage</title>
-    <link rel="shortcut icon" href="css/No-Gradient-pink.png">
-    <meta charset="utf-8">
-    <!-- google fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,800,900,500,600,300,200" rel="stylesheet" type="text/css">
-    <!-- font awesome icons -->
+    <link rel="shortcut icon" href="No-Gradient-pink.png">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- scripts -->
     <script src="https://use.fontawesome.com/5682bd9388.js"></script>
-    <!-- styles -->
-    <link href="css/style.scss" rel="stylesheet">
-    <!-- Scripts... minus that font awesome one... ignore that -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/jquery.easings.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-    <!-- script to connect fullpage -->
+    <!-- full page script -->
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
@@ -23,43 +19,39 @@
             });
         });
     </script>
-  </head>
-  <body>
-  <!-- for our scroll sections lets see about adding some of those cool angled lines the kids are doing -->
-  <!-- nav -->
-    <div class="side-nav">
-      <ul>
-        <li class="head"><i class="fa fa-header fa-2x fa-nav" aria-hidden="true"></i></li>
-        <li><a href="#"><i class="fa fa-graduation-cap fa-2x fa-nav" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-id-card-o fa-2x fa-nav" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-globe fa-2x fa-nav" aria-hidden="true"></i></a></li>
-      </ul>
+</head>
+
+<body>
+
+    <div id="fullpage">
+        <div class="section">Welcome... to JURASSIC PARK!!</div>
+        <div class="section">
+            <div id="slide1" class="slide">In the begining..</div>
+            <div id="slide1" class="slide">there was nothing</div>
+            <div id="slide1" class="slide">but now...</div>
+        </div>
+        <div class="section">there's still nothing</div>
     </div>
-    <!-- bulk of the content ya know -->
-    <div id="fullPage">
-      <div class="section">
-        Section 1
-      </div>
-      <div class="section">
-        <div class="slide">Section 2 Slide 1</div>
-        <div class="slide">Section 2 Slide 2</div>
-        <div class="slide">Section 2 Slide 3</div>
-      </div>
-      <div class="section">
-        Section 3
-      </div>
-    </div>
-    <!-- footer -->
+
     <div class="footer">
-      <div id="center" class="center"><p>Brendan Hegarty - Marist College 2017 - Last Updated 01/03/2017</p>
+        <div id="center" class="center"><p>Brendan Hegarty - Marist College 2017 - Last Updated 01/18/2017</p></div>
+    <!-- Social links here -->
+        <div id="right" class="right">
+            <a target="_blank" href="https://github.com/bthegarty"><i class="fa fa-github fa-2x fa-social" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/brendan-hegarty-a91186104/"><i class="fa fa-linkedin-square fa-2x fa-social" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.facebook.com/brendan.hegarty.14"><i class="fa fa-facebook-square fa-2x fa-social" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.instagram.com/b_hegs1/?hl=en"><i class="fa fa-instagram fa-2x fa-social" aria-hidden="true"></i></a>
+        </div>
     </div>
-      <!-- Social links here -->
-      <div id="right" class="right">
-        <a target="_blank" href="https://github.com/bthegarty"><i class="fa fa-github fa-2x fa-social" aria-hidden="true"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/brendan-hegarty-a91186104/"><i class="fa fa-linkedin-square fa-2x fa-social" aria-hidden="true"></i></a>
-        <a target="_blank" href="https://www.facebook.com/brendan.hegarty.14"><i class="fa fa-facebook-square fa-2x fa-social" aria-hidden="true"></i></a>
-        <a target="_blank" href="https://www.instagram.com/b_hegs1/?hl=en"><i class="fa fa-instagram fa-2x fa-social" aria-hidden="true"></i></a>
-      </div>
+
+    <div class="side-nav">
+        <ul>
+            <li class="head"><i class="fa fa-header fa-2x fa-nav" aria-hidden="true"></i></li>
+            <li><a href="#"><i class="fa fa-graduation-cap fa-2x fa-nav" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-id-card-o fa-2x fa-nav" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-globe fa-2x fa-nav" aria-hidden="true"></i></a></li>
+        </ul>
     </div>
-  </body>
+</body>
+</body>
 </html>

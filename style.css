@@ -1,11 +1,16 @@
-$font-stack: 'Raleway', sans-serif;
+/* $font-stack: 'Raleway', sans-serif;
 $first-color: #333;
 $second-color: #333;
 $third-color: #333;
-$fourth-color: #333;
+$fourth-color: #333; */
 
 body{
-  font-family: 100% $font-stack;
+  font-family: 'Raleway', sans-serif;
+}
+
+.section{
+    font-size: 4em;
+    text-align: center;
 }
 
 .side-nav{
@@ -41,8 +46,8 @@ body{
   }
 
 .footer{
-  left: 50;
-  right: 50;
+  left: 0;
+  right: 0;
   text-align: center;
   bottom: 0;
   position: fixed;

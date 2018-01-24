@@ -36,13 +36,13 @@ body{
     color: goldenrod;
   }
   .fa-graduation-cap:hover{
-    color: red;
+    color: goldenrod;
   }
   .fa-id-card-o:hover{
-    color: hotpink;
+    color: goldenrod;
   }
   .fa-globe:hover{
-    color: blue;
+    color: goldenrod;
   }
 
 .footer{
@@ -68,7 +68,16 @@ body{
     .fa-linkedin-square:hover{
       color: black;
     }
+    .fa-lemon-o:hover{
+      color: black;
+    }
 
+.col-md-2{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15%;
+  padding-left: 15%;
+}
 
 .angles{
   @include angled-edge('outside bottom','lower right', #EE3924);
